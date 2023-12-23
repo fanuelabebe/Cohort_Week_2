@@ -1,0 +1,14 @@
+
+version: 2
+
+models:
+  - name: top_avg_speed_vehicles
+    description: "Gets a list of the top vehicles with average speed"
+    columns:
+      - name: track_id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  
