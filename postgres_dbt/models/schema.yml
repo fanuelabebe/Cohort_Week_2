@@ -10,5 +10,14 @@ models:
         tests:
           - unique
           - not_null
+  - name: stg_time_summary
+    description: "Summarizes vehicles with their time"
+    columns:
+      - name: time
+        description: "time in seconds"
+        
+  - name: lat_time_summary
+    description: "A summary of vehicles by distance and speed"
 
-  
+  - name: lon_time_summary
+    description: "A summary of vehicles by distance and speed"
